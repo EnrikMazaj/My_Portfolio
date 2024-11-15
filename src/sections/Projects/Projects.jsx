@@ -21,9 +21,15 @@ function Projects() {
         />
         <ProjectCard
           src={github}
-          p={"Html,Css,Js site for bus company"}
-          h3={"E-commerce Site"}
-          link={"https://github.com/EnrikMazaj/Bus-Company-Website"}
+          p={"React.js + Node.js Ecommerce website (under development)"}
+          h3={"Fullstack Website"}
+          link={"https://github.com/EnrikMazaj/bus-ecommerce"}
+        />
+        <ProjectCard
+          src={github}
+          p={"C++ Packman Terminal Game"}
+          h3={"Pacman Game"}
+          link={"https://github.com/EnrikMazaj/Packman-terminal-game"}
         />
         <ProjectCard
           src={github}
@@ -31,6 +37,7 @@ function Projects() {
           h3={"Music Player"}
           link={"https://github.com/EnrikMazaj/MusicPlayer"}
         />
+        
       </div>
     </section>
   );
