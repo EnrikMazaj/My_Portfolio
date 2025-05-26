@@ -1,4 +1,3 @@
-import React from 'react';
 import './Experience.css';
 
 const Experience = () => {
@@ -10,6 +9,14 @@ const Experience = () => {
       period: "2025 - Present",
       description: "Developed and maintained backend APIs using Fastify and TypeScript. Designed and implemented microservices architecture, integrated Kafka for event-driven communication, and optimized database performance.",
       technologies: ["TypeScript", "Fastify", "MongoDB", "Kafka", "Jest", "Docker"]
+    },
+     {
+      title: "AI Trainer",
+      company: "Outlier",
+      location: "Athens, Greece",
+      period: "2025 - Present",
+      description: "Evaluated and Enhanced the Performance of LLM Models in Various Projects Involving Coding, Mathematics, and General Reasoning.",
+      technologies: ["Python", "Prompt Engineering", "LLM", "AI"]
     },
     {
       title: "Software Engineer Intern",

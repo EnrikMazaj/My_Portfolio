@@ -18,6 +18,7 @@ function Skills() {
   <SkillList src={checkMarkIcon} skill="HTML" />
   <SkillList src={checkMarkIcon} skill="CSS" />
   <SkillList src={checkMarkIcon} skill="JavaScript" />
+  <SkillList src={checkMarkIcon} skill="Typescript" />
   <SkillList src={checkMarkIcon} skill="Python" />
   <SkillList src={checkMarkIcon} skill="C, C++" />
 </div>
@@ -28,31 +29,30 @@ function Skills() {
   <SkillList src={checkMarkIcon} skill="React.js" />
   <SkillList src={checkMarkIcon} skill="Node.js" />
   <SkillList src={checkMarkIcon} skill="Tailwind CSS" />
+  <SkillList src={checkMarkIcon} skill="Express" />
+  <SkillList src={checkMarkIcon} skill="Fastify" />
 </div>
 <hr/>
-
-<h3>Cloud and Deployment</h3>
-<div className={styles.skillList}>
-  <SkillList src={checkMarkIcon} skill="Azure" />
-  <SkillList src={checkMarkIcon} skill="Google Colab" />
-  <SkillList src={checkMarkIcon} skill="Vercel" />
-</div>
-<hr />
 
 <h3>Databases and ORMs</h3>
 <div className={styles.skillList}>
   <SkillList src={checkMarkIcon} skill="MySQL" />
   <SkillList src={checkMarkIcon} skill="PostgreSQL" />
+  <SkillList src={checkMarkIcon} skill="MongoDB" />
   <SkillList src={checkMarkIcon} skill="Prisma, Supabase" />
 </div>
 <hr />
 
 <h3>Tools and Platforms</h3>
 <div className={styles.skillList}>
-  <SkillList src={checkMarkIcon} skill="Git" />
+  <SkillList src={checkMarkIcon} skill="Git Actions" />
+  <SkillList src={checkMarkIcon} skill="Kafka" />
+  <SkillList src={checkMarkIcon} skill="BullMq" />
+  <SkillList src={checkMarkIcon} skill="Docker" />
   <SkillList src={checkMarkIcon} skill="Slack" />
   <SkillList src={checkMarkIcon} skill="Trello" />
   <SkillList src={checkMarkIcon} skill="Swagger" />
+  <SkillList src={checkMarkIcon} skill="Jira" />
 </div>
 
 
