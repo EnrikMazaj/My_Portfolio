@@ -6,6 +6,10 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  
+  /* RGB values for ScrollProgress component */
+  --text-color-rgb: 34, 34, 34;
+  --btn-color-rgb: 9, 135, 242;
 }
 
 [data-theme="dark"] {
@@ -16,6 +20,10 @@
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
+  
+  /* RGB values for dark theme */
+  --text-color-rgb: 255, 255, 255;
+  --btn-color-rgb: 255, 255, 255;
 }
 
 body {

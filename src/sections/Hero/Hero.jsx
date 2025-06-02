@@ -46,7 +46,7 @@ function Hero() {
             <img src={linkedinIcon} alt="linkedin Icon" />
           </a>
         </span>
-        <p className="description">Welcome to my Portfolio - Website! Explore my <strong><a href="#projects">projects</a></strong>, <strong><a href="#skills">skills</a></strong>, and <strong><a href="#experience">experiences</a></strong> that define my professional journey. If you'd like to connect or have any questions, please use the <strong><a href="#contact">contact form</a></strong> at the bottom of the page!</p>
+        <p className="description">Welcome to my Portfolio - Website! Explore my <strong><a href="#projects">projects</a></strong>, <strong><a href="#skills">skills</a></strong>, and <strong><a href="#experience">experiences</a></strong> that define my professional journey. If you would like to connect or have any questions, please use the <strong><a href="#contact">contact form</a></strong> at the bottom of the page!</p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
