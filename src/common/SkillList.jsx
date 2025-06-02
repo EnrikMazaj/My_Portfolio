@@ -1,10 +1,16 @@
-function SkillList({ src, skill }) {
+import PropTypes from 'prop-types';
+
+function SkillList({ skill }) {
   return (
-    <span>
-      <img src={src} alt="Checkmark icon" />
+    <span className="skill-item">
+      <span className="bullet">•</span>
       <p>{skill}</p>
     </span>
   );
 }
+
+SkillList.propTypes = {
+  skill: PropTypes.string.isRequired,
+};
 
 export default SkillList;

@@ -8,8 +8,21 @@ import Experience from "./sections/Experience/Experience";
 import ScrollProgress from "./components/ScrollProgress/ScrollProgress";
 
 function App() {
+  const floatingElements = [
+    "React", "JavaScript", "Python", "CSS", "HTML", 
+    "Node.js", "MongoDB", "Git", "API", "JSON",
+    "{ }", "< />", "console.log()", "=>", "useState()"
+  ];
+
   return (
     <>
+      <div className="floating-elements">
+        {floatingElements.map((element, index) => (
+          <div key={index} className="floating-element">
+            {element}
+          </div>
+        ))}
+      </div>
       <Hero />
       <Experience />
       <Projects/>

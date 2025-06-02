@@ -73,18 +73,29 @@
 }
 
 .timeline-content {
-  background-color: var(--background-color);
+  background-color: rgba(255, 255, 255, 0.95);
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--btn-color);
   opacity: 0.9;
   transition: transform 200ms ease-in-out, box-shadow 200ms ease-in-out;
+  backdrop-filter: blur(10px);
+}
+
+[data-theme="dark"] .timeline-content {
+  background-color: rgba(30, 41, 59, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
 }
 
 .timeline-content:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .timeline-content:hover {
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
 }
 
 .timeline-content h3 {

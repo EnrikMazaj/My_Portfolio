@@ -15,6 +15,22 @@
     height: 50px;
     padding-left: 16px;
     width: 250px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--btn-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    border-radius: 20px;
+    box-sizing: border-box;
+    justify-self: center;
+    color: var(--form-text-color);
+  }
+  
+  [data-theme="dark"] textarea,
+  [data-theme="dark"] input:not([type='submit']) {
+    background-color: rgba(30, 41, 59, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
   }
   
   textarea {
@@ -23,14 +39,17 @@
     height: 250px;
   }
   
-  input,
-  textarea {
-    border-radius: 20px;
-    border: #888 1px solid;
-    box-sizing: border-box;
-    justify-self: center;
-    background-color: var(--background-color);
-    color: var(--form-text-color);
+  input:focus,
+  textarea:focus {
+    outline: none;
+    border-color: var(--btn-color);
+    box-shadow: 0 0 0 3px rgba(var(--btn-color-rgb), 0.1), 0 4px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  [data-theme="dark"] input:focus,
+  [data-theme="dark"] textarea:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1), 0 4px 15px rgba(0, 0, 0, 0.4);
   }
   
   ::placeholder {

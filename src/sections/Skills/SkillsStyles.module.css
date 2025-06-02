@@ -6,7 +6,7 @@
     span {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 8px;
     }
   
     img {
@@ -21,6 +21,13 @@
     flex-wrap: wrap;
     row-gap: 40px;
     max-width: 26ch;
+  }
+  
+  .bullet {
+    color: var(--btn-color);
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 8px;
   }
   
   hr {
